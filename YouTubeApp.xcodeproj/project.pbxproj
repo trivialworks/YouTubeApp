@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9CF7D8116019AFD004BAD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CF7D8016019AFD004BAD35 /* UIKit.framework */; };
+		F9CF7D8316019AFD004BAD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CF7D8216019AFD004BAD35 /* Foundation.framework */; };
+		F9CF7D8516019AFD004BAD35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CF7D8416019AFD004BAD35 /* CoreGraphics.framework */; };
+		F9CF7D8B16019AFD004BAD35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9CF7D8916019AFD004BAD35 /* InfoPlist.strings */; };
+		F9CF7D8D16019AFE004BAD35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CF7D8C16019AFE004BAD35 /* main.m */; };
+		F9CF7D9116019AFE004BAD35 /* MoveObjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CF7D9016019AFE004BAD35 /* MoveObjectAppDelegate.m */; };
+		F9CF7D9416019AFE004BAD35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CF7D9216019AFE004BAD35 /* MainStoryboard.storyboard */; };
+		F9CF7D9716019AFE004BAD35 /* MoveObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CF7D9616019AFE004BAD35 /* MoveObjectViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9CF7D7C16019AFD004BAD35 /* YouTubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CF7D8016019AFD004BAD35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9CF7D8216019AFD004BAD35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9CF7D8416019AFD004BAD35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9CF7D8816019AFD004BAD35 /* YouTubeApp-Info.plist */ = {isa = PBXFileReference; path = "YouTubeApp-Info.plist"; sourceTree = "<group>"; };
+		F9CF7D8A16019AFD004BAD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9CF7D8C16019AFE004BAD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9CF7D8E16019AFE004BAD35 /* YouTubeApp-Prefix.pch */ = {isa = PBXFileReference; path = "YouTubeApp-Prefix.pch"; sourceTree = "<group>"; };
+		F9CF7D8F16019AFE004BAD35 /* MoveObjectAppDelegate.h */ = {isa = PBXFileReference; path = MoveObjectAppDelegate.h; sourceTree = "<group>"; };
+		F9CF7D9016019AFE004BAD35 /* MoveObjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveObjectAppDelegate.m; sourceTree = "<group>"; };
+		F9CF7D9316019AFE004BAD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F9CF7D9516019AFE004BAD35 /* MoveObjectViewController.h */ = {isa = PBXFileReference; path = MoveObjectViewController.h; sourceTree = "<group>"; };
+		F9CF7D9616019AFE004BAD35 /* MoveObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveObjectViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9CF7D7916019AFD004BAD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CF7D8116019AFD004BAD35 /* UIKit.framework in Frameworks */,
+				F9CF7D8316019AFD004BAD35 /* Foundation.framework in Frameworks */,
+				F9CF7D8516019AFD004BAD35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9CF7D7116019AFD004BAD35 = {
+			isa = PBXGroup;
+			children = (
+				F9CF7D8616019AFD004BAD35 /* YouTubeApp */,
+				F9CF7D7F16019AFD004BAD35 /* Frameworks */,
+				F9CF7D7D16019AFD004BAD35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9CF7D7D16019AFD004BAD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CF7D7C16019AFD004BAD35 /* YouTubeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9CF7D7F16019AFD004BAD35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9CF7D8016019AFD004BAD35 /* UIKit.framework */,
+				F9CF7D8216019AFD004BAD35 /* Foundation.framework */,
+				F9CF7D8416019AFD004BAD35 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9CF7D8616019AFD004BAD35 /* YouTubeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9CF7D8F16019AFE004BAD35 /* MoveObjectAppDelegate.h */,
+				F9CF7D9016019AFE004BAD35 /* MoveObjectAppDelegate.m */,
+				F9CF7D9216019AFE004BAD35 /* MainStoryboard.storyboard */,
+				F9CF7D9516019AFE004BAD35 /* MoveObjectViewController.h */,
+				F9CF7D9616019AFE004BAD35 /* MoveObjectViewController.m */,
+				F9CF7D8716019AFD004BAD35 /* Supporting Files */,
+			);
+			path = YouTubeApp;
+			sourceTree = "<group>";
+		};
+		F9CF7D8716019AFD004BAD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9CF7D8816019AFD004BAD35 /* YouTubeApp-Info.plist */,
+				F9CF7D8916019AFD004BAD35 /* InfoPlist.strings */,
+				F9CF7D8C16019AFE004BAD35 /* main.m */,
+				F9CF7D8E16019AFE004BAD35 /* YouTubeApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9CF7D7B16019AFD004BAD35 /* YouTubeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CF7D9A16019AFE004BAD35 /* Build configuration list for PBXNativeTarget "YouTubeApp" */;
+			buildPhases = (
+				F9CF7D7816019AFD004BAD35 /* Sources */,
+				F9CF7D7916019AFD004BAD35 /* Frameworks */,
+				F9CF7D7A16019AFD004BAD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeApp;
+			productName = YouTubeApp;
+			productReference = F9CF7D7C16019AFD004BAD35 /* YouTubeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9CF7D7316019AFD004BAD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MoveObject;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "dhirendra@trivialworks.com";
+			};
+			buildConfigurationList = F9CF7D7616019AFD004BAD35 /* Build configuration list for PBXProject "YouTubeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9CF7D7116019AFD004BAD35;
+			productRefGroup = F9CF7D7D16019AFD004BAD35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9CF7D7B16019AFD004BAD35 /* YouTubeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9CF7D7A16019AFD004BAD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CF7D8B16019AFD004BAD35 /* InfoPlist.strings in Resources */,
+				F9CF7D9416019AFE004BAD35 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9CF7D7816019AFD004BAD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CF7D8D16019AFE004BAD35 /* main.m in Sources */,
+				F9CF7D9116019AFE004BAD35 /* MoveObjectAppDelegate.m in Sources */,
+				F9CF7D9716019AFE004BAD35 /* MoveObjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9CF7D8916019AFD004BAD35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CF7D8A16019AFD004BAD35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9CF7D9216019AFE004BAD35 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CF7D9316019AFE004BAD35 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9CF7D9816019AFE004BAD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9CF7D9916019AFE004BAD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9CF7D9B16019AFE004BAD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTubeApp/YouTubeApp-Prefix.pch";
+				INFOPLIST_FILE = "YouTubeApp/YouTubeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9CF7D9C16019AFE004BAD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTubeApp/YouTubeApp-Prefix.pch";
+				INFOPLIST_FILE = "YouTubeApp/YouTubeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9CF7D7616019AFD004BAD35 /* Build configuration list for PBXProject "YouTubeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CF7D9816019AFE004BAD35 /* Debug */,
+				F9CF7D9916019AFE004BAD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CF7D9A16019AFE004BAD35 /* Build configuration list for PBXNativeTarget "YouTubeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CF7D9B16019AFE004BAD35 /* Debug */,
+				F9CF7D9C16019AFE004BAD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9CF7D7316019AFD004BAD35 /* Project object */;
+}
